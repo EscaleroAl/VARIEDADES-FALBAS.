@@ -72,3 +72,9 @@ setInterval(() => {
   i = (i + 1) % imagenes.length;
   document.getElementById("imgCarrusel").src = imagenes[i];
 }, 3000); // cambia cada 3 segundos
+
+let i = 0;
+setInterval(() => {
+  i = (i + 1) % imagenes.length;
+  document.getElementById("imgCarrusel").src = imagenes[i];
+}, 3000); // cambia cada 3 segundos
